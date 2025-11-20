@@ -1,0 +1,584 @@
+{"level":"info","message":"🚀 Phase 5 PDF RAG Backend listening on http://localhost:5000","timestamp":"2025-07-15T07:25:38.550Z"}
+{"level":"info","message":"📊 Features: Hybrid Retrieval, Query Transformation, Monitoring, Security, Caching","timestamp":"2025-07-15T07:25:38.552Z"}
+{"level":"info","message":"🚀 Phase 5 PDF RAG Backend listening on http://localhost:5000","timestamp":"2025-07-15T07:25:42.727Z"}
+{"level":"info","message":"📊 Features: Hybrid Retrieval, Query Transformation, Monitoring, Security, Caching","timestamp":"2025-07-15T07:25:42.729Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:26:35.853Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:26:35.863Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:26:36.468Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:26:38.629Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:30:13.979Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:30:13.982Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:30:14.474Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:30:16.783Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:30:16.789Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:30:16.793Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:30:17.240Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:30:20.060Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:30:28.051Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:30:28.056Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:30:28.538Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:30:30.689Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:30:30.694Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:30:30.699Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:30:31.113Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:30:33.786Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:30:33.791Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:30:33.794Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:30:34.230Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:30:36.444Z"}
+{"level":"info","message":"Processing PDF upload","timestamp":"2025-07-15T07:30:36.625Z"}
+{"level":"info","message":"PDF text extracted successfully","timestamp":"2025-07-15T07:30:36.746Z"}
+{"level":"info","message":"Created 4 chunks from PDF","timestamp":"2025-07-15T07:30:36.747Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:30:36.763Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:30:36.771Z"}
+{"level":"info","message":"Processing chunk 1/4","timestamp":"2025-07-15T07:30:36.798Z"}
+{"level":"info","message":"Processing chunk 2/4","timestamp":"2025-07-15T07:30:37.328Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:30:38.168Z"}
+{"level":"info","message":"Processing chunk 3/4","timestamp":"2025-07-15T07:30:38.493Z"}
+{"level":"info","message":"Processing chunk 4/4","timestamp":"2025-07-15T07:30:38.943Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:30:39.716Z"}
+{"level":"info","message":"PDF processing completed successfully","timestamp":"2025-07-15T07:30:40.065Z"}
+{"level":"info","message":"Processing query: Summarize the document","timestamp":"2025-07-15T07:30:50.590Z"}
+{"level":"info","message":"Generated 4 query variations","timestamp":"2025-07-15T07:30:51.346Z"}
+{"level":"error","message":"Query processing error: Cannot read properties of undefined (reading 'toLowerCase')","stack":"TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at calculateBM25Score (file:///D:/Aman/React/pdf-rag-app-v2/backend/server.js:143:51)\n    at file:///D:/Aman/React/pdf-rag-app-v2/backend/server.js:566:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-07-15T07:30:52.232Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:30:58.065Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:30:58.069Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:30:58.525Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:31:00.882Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:31:01.197Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:31:01.200Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:31:01.605Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:31:03.867Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:31:28.273Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:31:28.276Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:31:28.771Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:31:31.073Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:31:31.388Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:31:31.392Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:31:31.816Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:31:33.961Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:31:58.280Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:31:58.284Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:31:58.781Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:32:01.022Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:32:01.333Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:32:01.337Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:32:01.744Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:32:04.007Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:32:28.057Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:32:28.060Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:32:29.649Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:32:31.169Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:32:31.484Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:32:31.488Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:32:31.923Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:32:34.356Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:32:58.274Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:32:58.277Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:32:59.895Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:33:01.855Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:33:02.168Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:33:02.171Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:33:02.598Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:33:06.185Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:33:28.273Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:33:28.276Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:33:29.841Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:33:31.486Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:33:31.795Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:33:31.798Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:33:32.228Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:33:34.402Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:34:43.584Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:34:43.590Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:34:45.223Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:34:46.982Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:34:46.987Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:34:46.991Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:34:47.425Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:34:49.930Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:35:43.593Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:35:43.598Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:35:44.079Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:35:46.522Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:35:46.527Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:35:46.530Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:35:46.937Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:35:49.267Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:36:43.577Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:36:43.580Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:36:45.201Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:36:47.442Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:36:47.446Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:36:47.450Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:36:47.912Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:36:50.090Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:37:43.598Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:37:43.602Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:37:45.232Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:37:47.517Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:37:47.521Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:37:47.524Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:37:47.927Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:37:51.775Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:38:43.581Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:38:43.584Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:38:44.077Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:38:46.303Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:38:46.307Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:38:46.310Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:38:46.734Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:38:48.989Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:39:43.576Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:39:43.580Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:39:44.068Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:39:46.782Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:39:46.787Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:39:46.791Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:39:47.225Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:39:49.814Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:40:43.585Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:40:43.590Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:40:45.204Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:40:46.656Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:40:46.661Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:40:46.664Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:40:47.096Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:40:49.503Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:41:43.585Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:41:43.588Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:41:44.152Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:41:46.449Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:41:46.453Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:41:46.456Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:41:47.039Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:41:49.204Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:42:43.592Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:42:43.595Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:42:45.205Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:42:47.153Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:42:47.160Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:42:47.164Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:42:47.586Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:42:50.426Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:43:43.580Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:43:43.583Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:43:44.157Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:43:46.452Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:43:46.458Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:43:46.461Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:43:46.888Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:43:49.159Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:44:43.576Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:44:43.580Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:44:45.166Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:44:47.400Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:44:47.405Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:44:47.408Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:44:47.905Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:44:50.108Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:45:43.595Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:45:43.603Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:45:45.191Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:45:48.556Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:45:48.561Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:45:48.564Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:45:48.988Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:45:54.199Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:46:43.596Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:46:43.600Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:46:44.077Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:46:46.447Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:46:46.452Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:46:46.455Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:46:46.877Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:46:50.036Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:47:43.583Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:47:43.586Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:47:44.037Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:47:46.600Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:47:46.606Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:47:46.609Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:47:47.038Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:47:49.298Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:48:43.589Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:48:43.592Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:48:44.050Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:48:46.739Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:48:46.746Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:48:46.750Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:48:47.158Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:48:49.304Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:49:43.581Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:49:43.585Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:49:44.314Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:49:47.101Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:49:47.107Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:49:47.110Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:49:47.516Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:49:50.032Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:50:43.595Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:50:43.598Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:50:45.159Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:50:46.596Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:50:46.603Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:50:46.606Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:50:47.014Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:50:49.956Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:51:43.592Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:51:43.596Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:51:44.080Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:51:46.705Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:51:46.710Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:51:46.713Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:51:47.122Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:51:49.310Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:52:43.587Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:52:43.590Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:52:44.039Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:52:46.232Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:52:46.237Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:52:46.240Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:52:46.668Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:52:49.019Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:53:43.580Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:53:43.585Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:53:44.057Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:53:46.304Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:53:46.309Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:53:46.313Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:53:46.747Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:53:49.809Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:54:43.587Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:54:43.591Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:54:44.119Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:54:46.691Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:54:46.697Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:54:46.700Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:54:47.133Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:54:49.896Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:55:43.595Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:55:43.597Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:55:44.088Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:55:46.835Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:55:46.839Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:55:46.842Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:55:47.267Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:55:50.794Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:56:43.575Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:56:43.577Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:56:44.072Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:56:46.334Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:56:46.341Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:56:46.344Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:56:46.753Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:56:49.841Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:57:43.583Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:57:43.586Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:57:44.075Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:57:46.395Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:57:46.403Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:57:46.407Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:57:46.905Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:57:49.457Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:58:43.588Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:58:43.591Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:58:44.132Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:58:46.931Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:58:46.936Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:58:46.939Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:58:47.370Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:58:52.262Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:59:43.595Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:59:43.599Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:59:44.110Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:59:48.150Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T07:59:48.157Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T07:59:48.160Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T07:59:48.584Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T07:59:52.722Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:00:43.580Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:00:43.584Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:00:44.078Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:00:48.120Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:00:48.123Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:00:48.125Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:00:48.537Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:00:53.581Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:01:43.600Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:01:43.603Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:01:44.147Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:01:52.892Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:01:52.898Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:01:52.901Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:01:53.327Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:02:01.296Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:02:43.580Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:02:43.582Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:02:44.041Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:02:56.802Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:02:56.805Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:02:56.808Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:02:57.294Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:03:09.218Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:03:43.577Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:03:43.580Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:03:44.066Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:03:59.822Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:03:59.827Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:03:59.830Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:04:00.260Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:04:10.848Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:04:43.607Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:04:43.611Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:04:44.151Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-07-15T08:04:45.165Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:04:45.171Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:04:45.174Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:04:45.711Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-07-15T08:04:46.653Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:05:43.585Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:05:43.590Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:05:44.087Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:06:00.280Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:06:00.285Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:06:00.288Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:06:00.719Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:06:23.241Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:06:43.593Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:06:43.596Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:06:44.079Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:06:56.417Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-07-15T08:06:56.421Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-07-15T08:06:56.423Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-07-15T08:06:56.861Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-07-15T08:07:05.425Z"}
+{"level":"info","message":"🚀 Phase 5 PDF RAG Backend listening on http://localhost:5000","timestamp":"2025-07-15T08:07:07.099Z"}
+{"level":"info","message":"📊 Features: Hybrid Retrieval, Query Transformation, Monitoring, Security, Caching","timestamp":"2025-07-15T08:07:07.101Z"}
+{"level":"info","message":"🚀 Phase 5 PDF RAG Backend listening on http://localhost:5000","timestamp":"2025-08-05T10:21:12.038Z"}
+{"level":"info","message":"📊 Features: Hybrid Retrieval, Query Transformation, Monitoring, Security, Caching","timestamp":"2025-08-05T10:21:12.041Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:21:18.652Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:21:18.666Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:21:19.269Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:21:25.661Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:21:25.980Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:21:25.988Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:21:26.504Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:21:29.205Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:21:49.149Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:21:49.158Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:21:49.663Z"}
+{"code":"LIMIT_FILE_SIZE","field":"pdf","level":"error","message":"Unhandled error: File too large","name":"MulterError","stack":"MulterError: File too large\n    at abortWithCode (D:\\Aman\\___React\\pdf-rag-app-v2\\backend\\node_modules\\multer\\lib\\make-middleware.js:85:22)\n    at FileStream.<anonymous> (D:\\Aman\\___React\\pdf-rag-app-v2\\backend\\node_modules\\multer\\lib\\make-middleware.js:150:11)\n    at FileStream.emit (node:events:518:28)\n    at SBMH.ssCb [as _cb] (D:\\Aman\\___React\\pdf-rag-app-v2\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:479:32)\n    at feed (D:\\Aman\\___React\\pdf-rag-app-v2\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:248:10)\n    at SBMH.push (D:\\Aman\\___React\\pdf-rag-app-v2\\backend\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (D:\\Aman\\___React\\pdf-rag-app-v2\\backend\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)","storageErrors":[],"timestamp":"2025-08-05T10:22:00.803Z"}
+{"level":"info","message":"Processing PDF upload","timestamp":"2025-08-05T10:22:03.492Z"}
+{"level":"info","message":"PDF text extracted successfully","timestamp":"2025-08-05T10:22:03.970Z"}
+{"level":"info","message":"Created 42 chunks from PDF","timestamp":"2025-08-05T10:22:03.971Z"}
+{"level":"info","message":"Processing chunk 1/42","timestamp":"2025-08-05T10:22:04.303Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:22:04.719Z"}
+{"level":"info","message":"Processing chunk 2/42","timestamp":"2025-08-05T10:22:07.675Z"}
+{"level":"info","message":"Processing chunk 3/42","timestamp":"2025-08-05T10:22:08.182Z"}
+{"level":"info","message":"Processing chunk 4/42","timestamp":"2025-08-05T10:22:10.033Z"}
+{"level":"info","message":"Processing chunk 5/42","timestamp":"2025-08-05T10:22:10.699Z"}
+{"level":"info","message":"Processing chunk 6/42","timestamp":"2025-08-05T10:22:12.289Z"}
+{"level":"info","message":"Processing chunk 7/42","timestamp":"2025-08-05T10:22:13.711Z"}
+{"level":"info","message":"Processing chunk 8/42","timestamp":"2025-08-05T10:22:16.703Z"}
+{"level":"info","message":"Processing chunk 9/42","timestamp":"2025-08-05T10:22:17.145Z"}
+{"level":"info","message":"Processing chunk 10/42","timestamp":"2025-08-05T10:22:18.408Z"}
+{"level":"info","message":"Processing chunk 11/42","timestamp":"2025-08-05T10:22:18.876Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:22:19.781Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:22:19.788Z"}
+{"level":"info","message":"Processing chunk 12/42","timestamp":"2025-08-05T10:22:20.059Z"}
+{"level":"info","message":"Processing chunk 13/42","timestamp":"2025-08-05T10:22:20.501Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:22:21.538Z"}
+{"level":"info","message":"Processing chunk 14/42","timestamp":"2025-08-05T10:22:21.616Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:22:22.489Z"}
+{"level":"info","message":"Processing chunk 15/42","timestamp":"2025-08-05T10:22:22.522Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:22:22.805Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:22:22.812Z"}
+{"level":"info","message":"Processing chunk 16/42","timestamp":"2025-08-05T10:22:23.231Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:22:23.237Z"}
+{"level":"info","message":"Processing chunk 17/42","timestamp":"2025-08-05T10:22:24.096Z"}
+{"level":"info","message":"Processing chunk 18/42","timestamp":"2025-08-05T10:22:24.818Z"}
+{"level":"info","message":"Processing chunk 19/42","timestamp":"2025-08-05T10:22:25.678Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:22:25.778Z"}
+{"level":"info","message":"Processing chunk 20/42","timestamp":"2025-08-05T10:22:26.407Z"}
+{"level":"info","message":"Processing chunk 21/42","timestamp":"2025-08-05T10:22:27.255Z"}
+{"level":"info","message":"Processing chunk 22/42","timestamp":"2025-08-05T10:22:28.022Z"}
+{"level":"info","message":"Processing chunk 23/42","timestamp":"2025-08-05T10:22:28.915Z"}
+{"level":"info","message":"Processing chunk 24/42","timestamp":"2025-08-05T10:22:29.587Z"}
+{"level":"info","message":"Processing chunk 25/42","timestamp":"2025-08-05T10:22:30.548Z"}
+{"level":"info","message":"Processing chunk 26/42","timestamp":"2025-08-05T10:22:31.173Z"}
+{"level":"info","message":"Processing chunk 27/42","timestamp":"2025-08-05T10:22:32.139Z"}
+{"level":"info","message":"Processing chunk 28/42","timestamp":"2025-08-05T10:22:36.978Z"}
+{"level":"info","message":"Processing chunk 29/42","timestamp":"2025-08-05T10:22:37.695Z"}
+{"level":"info","message":"Processing chunk 30/42","timestamp":"2025-08-05T10:22:38.568Z"}
+{"level":"info","message":"Processing chunk 31/42","timestamp":"2025-08-05T10:22:39.294Z"}
+{"level":"info","message":"Processing chunk 32/42","timestamp":"2025-08-05T10:22:40.521Z"}
+{"level":"info","message":"Processing chunk 33/42","timestamp":"2025-08-05T10:22:41.185Z"}
+{"level":"info","message":"Processing chunk 34/42","timestamp":"2025-08-05T10:22:42.148Z"}
+{"level":"info","message":"Processing chunk 35/42","timestamp":"2025-08-05T10:22:44.774Z"}
+{"level":"info","message":"Processing chunk 36/42","timestamp":"2025-08-05T10:22:45.236Z"}
+{"level":"info","message":"Processing chunk 37/42","timestamp":"2025-08-05T10:22:46.400Z"}
+{"level":"info","message":"Processing chunk 38/42","timestamp":"2025-08-05T10:22:46.882Z"}
+{"level":"info","message":"Processing chunk 39/42","timestamp":"2025-08-05T10:22:47.986Z"}
+{"level":"info","message":"Processing chunk 40/42","timestamp":"2025-08-05T10:22:48.696Z"}
+{"level":"info","message":"Processing chunk 41/42","timestamp":"2025-08-05T10:22:49.706Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:22:49.796Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:22:49.800Z"}
+{"level":"info","message":"Processing chunk 42/42","timestamp":"2025-08-05T10:22:50.277Z"}
+{"level":"info","message":"PDF processing completed successfully","timestamp":"2025-08-05T10:22:51.282Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:22:51.730Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:22:52.903Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:23:20.448Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:23:20.454Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:23:22.137Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:23:24.320Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:23:50.133Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:23:50.140Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:23:52.975Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:23:55.223Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:24:20.462Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:24:20.468Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:24:22.176Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:24:24.824Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:24:50.157Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:24:50.175Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:24:51.789Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:24:54.834Z"}
+{"level":"info","message":"Processing PDF upload","timestamp":"2025-08-05T10:25:03.194Z"}
+{"level":"info","message":"PDF text extracted successfully","timestamp":"2025-08-05T10:25:03.517Z"}
+{"level":"info","message":"Created 72 chunks from PDF","timestamp":"2025-08-05T10:25:03.518Z"}
+{"level":"info","message":"Processing chunk 1/72","timestamp":"2025-08-05T10:25:03.536Z"}
+{"level":"info","message":"Processing chunk 2/72","timestamp":"2025-08-05T10:25:05.169Z"}
+{"level":"info","message":"Processing chunk 3/72","timestamp":"2025-08-05T10:25:05.636Z"}
+{"level":"info","message":"Processing chunk 4/72","timestamp":"2025-08-05T10:25:06.850Z"}
+{"level":"info","message":"Processing chunk 5/72","timestamp":"2025-08-05T10:25:08.133Z"}
+{"level":"info","message":"Processing chunk 6/72","timestamp":"2025-08-05T10:25:08.635Z"}
+{"level":"info","message":"Processing chunk 7/72","timestamp":"2025-08-05T10:25:09.787Z"}
+{"level":"info","message":"Processing chunk 8/72","timestamp":"2025-08-05T10:25:10.250Z"}
+{"level":"info","message":"Processing chunk 9/72","timestamp":"2025-08-05T10:25:11.374Z"}
+{"level":"info","message":"Processing chunk 10/72","timestamp":"2025-08-05T10:25:11.835Z"}
+{"level":"info","message":"Processing chunk 11/72","timestamp":"2025-08-05T10:25:12.961Z"}
+{"level":"info","message":"Processing chunk 12/72","timestamp":"2025-08-05T10:25:13.843Z"}
+{"level":"info","message":"Processing chunk 13/72","timestamp":"2025-08-05T10:25:14.570Z"}
+{"level":"info","message":"Processing chunk 14/72","timestamp":"2025-08-05T10:25:15.427Z"}
+{"level":"info","message":"Processing chunk 15/72","timestamp":"2025-08-05T10:25:16.202Z"}
+{"level":"info","message":"Processing chunk 16/72","timestamp":"2025-08-05T10:25:17.024Z"}
+{"level":"info","message":"Processing chunk 17/72","timestamp":"2025-08-05T10:25:17.760Z"}
+{"level":"info","message":"Processing chunk 18/72","timestamp":"2025-08-05T10:25:19.207Z"}
+{"level":"info","message":"Processing chunk 19/72","timestamp":"2025-08-05T10:25:19.693Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:25:20.145Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:25:20.150Z"}
+{"level":"info","message":"Processing chunk 20/72","timestamp":"2025-08-05T10:25:20.828Z"}
+{"level":"info","message":"Processing chunk 21/72","timestamp":"2025-08-05T10:25:21.257Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:25:21.762Z"}
+{"level":"info","message":"Processing chunk 22/72","timestamp":"2025-08-05T10:25:22.415Z"}
+{"level":"info","message":"Processing chunk 23/72","timestamp":"2025-08-05T10:25:22.869Z"}
+{"level":"info","message":"Processing chunk 24/72","timestamp":"2025-08-05T10:25:24.018Z"}
+{"level":"info","message":"Processing chunk 25/72","timestamp":"2025-08-05T10:25:24.450Z"}
+{"level":"info","message":"Processing chunk 26/72","timestamp":"2025-08-05T10:25:25.593Z"}
+{"level":"info","message":"Processing chunk 27/72","timestamp":"2025-08-05T10:25:26.047Z"}
+{"level":"info","message":"Processing chunk 28/72","timestamp":"2025-08-05T10:25:27.214Z"}
+{"level":"info","message":"Processing chunk 29/72","timestamp":"2025-08-05T10:25:27.654Z"}
+{"level":"info","message":"Processing chunk 30/72","timestamp":"2025-08-05T10:25:28.803Z"}
+{"level":"info","message":"Processing chunk 31/72","timestamp":"2025-08-05T10:25:29.228Z"}
+{"level":"info","message":"Processing chunk 32/72","timestamp":"2025-08-05T10:25:30.364Z"}
+{"level":"info","message":"Processing chunk 33/72","timestamp":"2025-08-05T10:25:30.831Z"}
+{"level":"info","message":"Processing chunk 34/72","timestamp":"2025-08-05T10:25:31.920Z"}
+{"level":"info","message":"Processing chunk 35/72","timestamp":"2025-08-05T10:25:32.434Z"}
+{"level":"info","message":"Processing chunk 36/72","timestamp":"2025-08-05T10:25:33.465Z"}
+{"level":"info","message":"Processing chunk 37/72","timestamp":"2025-08-05T10:25:34.026Z"}
+{"level":"info","message":"Processing chunk 38/72","timestamp":"2025-08-05T10:25:35.048Z"}
+{"level":"info","message":"Processing chunk 39/72","timestamp":"2025-08-05T10:25:37.302Z"}
+{"level":"info","message":"Processing chunk 40/72","timestamp":"2025-08-05T10:25:37.763Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:25:38.532Z"}
+{"level":"info","message":"Processing chunk 41/72","timestamp":"2025-08-05T10:25:38.901Z"}
+{"level":"info","message":"Processing chunk 42/72","timestamp":"2025-08-05T10:25:39.535Z"}
+{"level":"info","message":"Processing chunk 43/72","timestamp":"2025-08-05T10:25:40.458Z"}
+{"level":"info","message":"Processing chunk 44/72","timestamp":"2025-08-05T10:25:41.139Z"}
+{"level":"info","message":"Processing chunk 45/72","timestamp":"2025-08-05T10:25:42.046Z"}
+{"level":"info","message":"Processing chunk 46/72","timestamp":"2025-08-05T10:25:42.728Z"}
+{"level":"info","message":"Processing chunk 47/72","timestamp":"2025-08-05T10:25:43.627Z"}
+{"level":"info","message":"Processing chunk 48/72","timestamp":"2025-08-05T10:25:44.317Z"}
+{"level":"info","message":"Processing chunk 49/72","timestamp":"2025-08-05T10:25:45.203Z"}
+{"level":"info","message":"Processing chunk 50/72","timestamp":"2025-08-05T10:25:45.887Z"}
+{"level":"info","message":"Processing chunk 51/72","timestamp":"2025-08-05T10:25:50.188Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:25:50.452Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:25:50.455Z"}
+{"level":"info","message":"Processing chunk 52/72","timestamp":"2025-08-05T10:25:50.639Z"}
+{"level":"info","message":"Processing chunk 53/72","timestamp":"2025-08-05T10:25:51.788Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:25:52.078Z"}
+{"level":"info","message":"Processing chunk 54/72","timestamp":"2025-08-05T10:25:52.217Z"}
+{"level":"info","message":"Processing chunk 55/72","timestamp":"2025-08-05T10:25:53.356Z"}
+{"level":"info","message":"Processing chunk 56/72","timestamp":"2025-08-05T10:25:53.813Z"}
+{"level":"info","message":"Processing chunk 57/72","timestamp":"2025-08-05T10:25:55.693Z"}
+{"level":"info","message":"Processing chunk 58/72","timestamp":"2025-08-05T10:25:56.689Z"}
+{"level":"info","message":"Processing chunk 59/72","timestamp":"2025-08-05T10:25:57.374Z"}
+{"level":"info","message":"Processing chunk 60/72","timestamp":"2025-08-05T10:25:58.548Z"}
+{"level":"info","message":"Processing chunk 61/72","timestamp":"2025-08-05T10:25:59.112Z"}
+{"level":"info","message":"Processing chunk 62/72","timestamp":"2025-08-05T10:26:00.691Z"}
+{"level":"info","message":"Processing chunk 63/72","timestamp":"2025-08-05T10:26:01.460Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:26:04.687Z"}
+{"level":"info","message":"Processing chunk 64/72","timestamp":"2025-08-05T10:26:04.708Z"}
+{"level":"info","message":"Processing chunk 65/72","timestamp":"2025-08-05T10:26:05.182Z"}
+{"level":"info","message":"Processing chunk 66/72","timestamp":"2025-08-05T10:26:08.254Z"}
+{"level":"info","message":"Processing chunk 67/72","timestamp":"2025-08-05T10:26:08.714Z"}
+{"level":"info","message":"Processing chunk 68/72","timestamp":"2025-08-05T10:26:10.515Z"}
+{"level":"info","message":"Processing chunk 69/72","timestamp":"2025-08-05T10:26:10.964Z"}
+{"level":"info","message":"Processing chunk 70/72","timestamp":"2025-08-05T10:26:12.100Z"}
+{"level":"info","message":"Processing chunk 71/72","timestamp":"2025-08-05T10:26:12.557Z"}
+{"level":"info","message":"Processing chunk 72/72","timestamp":"2025-08-05T10:26:14.008Z"}
+{"level":"info","message":"PDF processing completed successfully","timestamp":"2025-08-05T10:26:14.687Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:26:35.451Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:26:35.455Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:26:37.062Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:26:47.026Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:26:47.032Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:26:47.036Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:26:50.554Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:26:52.868Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:27:06.142Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:27:06.148Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:27:07.788Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:27:08.128Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:27:36.454Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:27:36.458Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:27:39.333Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:27:41.056Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:28:06.151Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:28:06.155Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:28:09.503Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:28:09.912Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:28:36.462Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:28:36.467Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:28:37.736Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:28:38.888Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:29:06.143Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:29:06.147Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:29:11.040Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:29:14.588Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:29:36.456Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:29:36.461Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:29:38.449Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:29:38.886Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:30:29.136Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:30:29.142Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:30:30.215Z"}
+{"level":"info","message":"Generation model test successful","timestamp":"2025-08-05T10:30:43.464Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:31:29.452Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:31:29.457Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:31:35.923Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:31:38.167Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:32:29.141Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:32:29.146Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:32:31.075Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:32:31.889Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:33:29.470Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:33:29.473Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:33:31.158Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:33:31.570Z"}
+{"level":"info","message":"Performing health check","timestamp":"2025-08-05T10:34:29.134Z"}
+{"level":"info","message":"Neo4j connection successful","timestamp":"2025-08-05T10:34:29.139Z"}
+{"level":"info","message":"Embedding model test successful","timestamp":"2025-08-05T10:34:31.144Z"}
+{"level":"error","message":"Generation model test failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.","stack":"Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.\n    at handleResponseNotOk (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:412:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async makeRequest (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:385:9)\n    at async generateContent (file:///D:/Aman/___React/pdf-rag-app-v2/backend/node_modules/@google/generative-ai/dist/index.mjs:830:22)\n    at async file:///D:/Aman/___React/pdf-rag-app-v2/backend/server.js:324:13","status":503,"statusText":"Service Unavailable","timestamp":"2025-08-05T10:34:36.305Z"}
+{"level":"info","message":"🚀 Phase 5 PDF RAG Backend listening on http://localhost:5000","timestamp":"2025-08-05T10:35:06.650Z"}
+{"level":"info","message":"📊 Features: Hybrid Retrieval, Query Transformation, Monitoring, Security, Caching","timestamp":"2025-08-05T10:35:06.652Z"}
